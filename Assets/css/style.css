@@ -904,14 +904,16 @@ div.rotate2:hover {
         margin-top: 10px;
     }
     .teacher .item{
-        width: 550px;
+        width: 500px;
     }
     .Popular-Class .card .card-body .price{
         top: 33.5%;
     }
-    .who .we-are-list{
-        display: block;
+    .who .we-are-list .span{
+        margin-top: 10px;
     }
+    .footer h3::before{justify-content: center;
+    align-items: center;}
     .btn:hover {
         color: #fff;
         background: #ffc107;
