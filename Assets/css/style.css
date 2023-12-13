@@ -405,7 +405,7 @@ img {
     padding: 10px;
     background-color: #ea512e;
     right: 0;
-    top: 47.5%;
+    top: 47%;
     font-size: 20px;
     font-weight: bold;
     color: #fff !important;
@@ -836,7 +836,7 @@ footer {
 div.rotate2 {
     position: fixed;
     top: 50%;
-    right: 20px;
+    right: 47px;
     z-index: 99;
     margin-top: 10px;
     width: 133px;
@@ -857,6 +857,168 @@ div.rotate2:hover {
 }
 
 /* /Animation Section End */
+
+/* Media Query Section Start */
+@media only screen and (max-width: 768px) {
+
+    .banner .p .h1 .span{
+        text-align: center;
+        margin-top: 5%;
+
+    }
+    .banner .h1{
+        font-size: 28px;
+    }
+    .banner{
+        max-width: 800px;
+    }
+    .banner .span{
+        font-size: 8px;
+    }
+    .who .who-image{
+        margin-top: 300px;
+    }
+    .Popular-Class .card{
+        margin-top: 20px;
+    }
+    .Popular-Class .card .card-body .price{
+        top: 33.5%;
+    }
+    .core-value{
+        align-items: center;
+        margin-top: 50px;
+    }
+    .blog .card{
+        margin-top: 20px;
+        align-items: center;
+    }
+    .blog .card .card-body .class-list .btn{
+        text-align: center;
+    }
+   
+  
+ 
+}
+@media only screen and (max-width: 576px) {
+    .banner .btn{
+        margin-top: 10px;
+    }
+    .teacher .item{
+        width: 550px;
+    }
+    .Popular-Class .card .card-body .price{
+        top: 33.5%;
+    }
+    .btn:hover {
+        color: #fff;
+        background: #ffc107;
+    }
+    
+    .nav-link:hover {
+        color: #ea512e !important;
+    }
+    
+    .nav-link :hover {
+        color: #ea512e !important;
+    }
+    
+    .nav-link {
+        transition: color .15s ease-in-out;
+    }
+    
+    .dropdown-item:hover {
+        color: #ea512e !important;
+    }
+    
+    
+    .navbar .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    
+    .who ul li:hover span {
+        background: #ffc107;
+        transition: all 2s ease-out;
+    }
+    
+    
+    .Popular-Class .card:hover .card-img-top {
+        transform: rotate(2deg) scale(1.07);
+        color: #ea512e;
+    }
+    
+    .Popular-Class .card:hover .card-title {
+        color: #ea512e;
+    }
+    
+    .Popular-Class .card:hover .price {
+        background: #ffc107;
+    }
+    
+    .core-value .number:hover {
+        color: #fff;
+        transition: 0.5s;
+        background: #EA512E !important;
+        outline-color: #EA512E;
+        z-index: 1;
+    }
+    
+    .teacher .teacher-image:hover .social-media {
+        margin-bottom: 0px;
+        transition: all 0.5s ease-out;
+    }
+    
+    .card.teacher:hover div {
+        background: #EA512E;
+        transition: all 0.3s linear;
+    }
+    
+    .card.teacher:hover div .fa-quote-left {
+        color: #fff !important;
+    
+        margin-left: 10px;
+        transition: all 0.3s linear;
+    }
+    
+    .testimoniel .nav-button button:hover {
+        background: #f5890d;
+        transition: 0.3s linear;
+    }
+    
+    .blog .card:hover img {
+        transform: rotate(2deg) scale(1.07);
+        transition: all 0.3s linear;
+    }
+    
+    .blog .card:hover .card-title {
+        color: #ea512e;
+    }
+    
+    .footer .social-media:hover {
+        background: #f5890d;
+        animation: bounce 0.5s linear;
+    }
+    
+    .footer .Contact-info li a:hover {
+        color: #ea512e;
+    }
+    
+    .footer .grid-image:hover img {
+        transform: rotate(2deg) scale(1.07);
+        transition: all 0.3s linear;
+    }
+    
+    .bottom p a:hover {
+        cursor: pointer;
+        color: #fff;
+    }
+    
+    div.rotate2:hover {
+        background-color: red;
+        transition: all 0.3s linear;
+    }
+   
+}
+/* /Media Query Section End */
 
 
 @keyframes bounce {
