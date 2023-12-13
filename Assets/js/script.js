@@ -9,4 +9,4 @@ function prev(){
     sliderMain.prepend(item[item.length-1]);
 }
 
-setInterval(next,1000)
+// setInterval(next,1000)
