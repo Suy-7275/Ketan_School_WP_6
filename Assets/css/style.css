@@ -909,6 +909,9 @@ div.rotate2:hover {
     .Popular-Class .card .card-body .price{
         top: 33.5%;
     }
+    .who .we-are-list{
+        display: block;
+    }
     .btn:hover {
         color: #fff;
         background: #ffc107;
