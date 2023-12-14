@@ -265,8 +265,8 @@ img {
     height: auto;
     width: 95%;
 }
-    
- 
+
+
 
 /* Banner Section End */
 /* Who we are section start */
@@ -861,104 +861,121 @@ div.rotate2:hover {
 /* Media Query Section Start */
 @media only screen and (max-width: 768px) {
 
-    .banner .p .h1 .span{
+    .banner .p .h1 .span {
         text-align: center;
         margin-top: 5%;
 
     }
-    .banner .h1{
+
+    .banner .h1 {
         font-size: 28px;
     }
-    .banner{
+
+    .banner {
         max-width: 800px;
     }
-    .banner .span{
+
+    .banner .span {
         font-size: 8px;
     }
-    .who .who-image{
+
+    .who .who-image {
         margin-top: 300px;
     }
-    .Popular-Class .card{
+
+    .Popular-Class .card {
         margin-top: 20px;
     }
-    .Popular-Class .card .card-body .price{
+
+    .Popular-Class .card .card-body .price {
         top: 33.5%;
     }
-    .core-value{
+
+    .core-value {
         align-items: center;
         margin-top: 50px;
     }
-    .blog .card{
+
+    .blog .card {
         margin-top: 20px;
         align-items: center;
     }
-    .blog .card .card-body .class-list .btn{
+
+    .blog .card .card-body .class-list .btn {
         text-align: center;
     }
-   
-  
- 
+
+
+
 }
+
 @media only screen and (max-width: 576px) {
-    .banner .btn{
+    .banner .btn {
         margin-top: 10px;
     }
-    .teacher .item{
+
+    .teacher .item {
         width: 500px;
     }
-    .Popular-Class .card .card-body .price{
+
+    .Popular-Class .card .card-body .price {
         top: 45%;
     }
-    .who .we-are-list .span{
+
+    .who .we-are-list .span {
         margin-top: 10px;
     }
-    .footer h3::before{justify-content: center;
-    align-items: center;}
+
+    .footer h3::before {
+        justify-content: center;
+        align-items: center;
+    }
+
     .btn:hover {
         color: #fff;
         background: #ffc107;
     }
-    
+
     .nav-link:hover {
         color: #ea512e !important;
     }
-    
+
     .nav-link :hover {
         color: #ea512e !important;
     }
-    
+
     .nav-link {
         transition: color .15s ease-in-out;
     }
-    
+
     .dropdown-item:hover {
         color: #ea512e !important;
     }
-    
-    
+
+
     .navbar .dropdown:hover .dropdown-menu {
         display: block;
     }
-    
+
     .who ul li:hover span {
         background: #ffc107;
         transition: all 2s ease-out;
     }
-    
-    
+
+
     .Popular-Class .card:hover .card-img-top {
         transform: rotate(2deg) scale(1.07);
         color: #ea512e;
     }
-    
+
     .Popular-Class .card:hover .card-title {
         color: #ea512e;
     }
-    
+
     .Popular-Class .card:hover .price {
         background: #ffc107;
     }
-    
+
     .core-value .number:hover {
         color: #fff;
         transition: 0.5s;
@@ -966,63 +983,64 @@ div.rotate2:hover {
         outline-color: #EA512E;
         z-index: 1;
     }
-    
+
     .teacher .teacher-image:hover .social-media {
         margin-bottom: 0px;
         transition: all 0.5s ease-out;
     }
-    
+
     .card.teacher:hover div {
         background: #EA512E;
         transition: all 0.3s linear;
     }
-    
+
     .card.teacher:hover div .fa-quote-left {
         color: #fff !important;
-    
+
         margin-left: 10px;
         transition: all 0.3s linear;
     }
-    
+
     .testimoniel .nav-button button:hover {
         background: #f5890d;
         transition: 0.3s linear;
     }
-    
+
     .blog .card:hover img {
         transform: rotate(2deg) scale(1.07);
         transition: all 0.3s linear;
     }
-    
+
     .blog .card:hover .card-title {
         color: #ea512e;
     }
-    
+
     .footer .social-media:hover {
         background: #f5890d;
         animation: bounce 0.5s linear;
     }
-    
+
     .footer .Contact-info li a:hover {
         color: #ea512e;
     }
-    
+
     .footer .grid-image:hover img {
         transform: rotate(2deg) scale(1.07);
         transition: all 0.3s linear;
     }
-    
+
     .bottom p a:hover {
         cursor: pointer;
         color: #fff;
     }
-    
+
     div.rotate2:hover {
         background-color: red;
         transition: all 0.3s linear;
     }
-   
+
 }
+
 /* /Media Query Section End */
 
 
